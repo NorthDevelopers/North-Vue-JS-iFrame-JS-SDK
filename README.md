@@ -1,35 +1,16 @@
-# Vue.js
+# Securely Embed Payments in a VueJS App
 
-This directory is a brief example of a [Vue.js](https://vuejs.org/) app that can be deployed to Vercel with zero configuration.
+This is a JavaScript application that uses the front-end Vue framework to demonstrate an embedded payment solution with [North's iFrame JavaScript SDK](https://developer.north.com/products/online/iframe-javascript-sdk). The code in this repository handles the front-end payment process and adds a simple payment form to a website. The code that handles back-end part of the payment process is located in a [separate repository](https://github.com/NorthDevelopers/North-NodeJS-iFrame-JS-SDK), allowing each to be deployed separately.
 
-## Deploy Your Own
+## Get Sandbox Credentials
 
-Deploy your own Vue.js project with Vercel.
+To get started, create a free [North Developer account](https://developer.north.com/register). This will allow you to get the sandbox credentials that are required to test the app. View the official [iFrame JavaScript SDK Integration Guide](https://developer.north.com/products/online/iframe-javascript-sdk/integration-guide), then [contact](https://developer.north.com/contact) North's Sales Engineering team to get sandbox credentials added to your North Developer account.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/vue&template=vue)
+## Follow Along with the Tutorial
+When you're ready to start building your app, you can follow along with [this tutorial](https://developer.north.com/blog/tutorial-embedding-payments-into-website-with-vue) for step-by-step instructions.
 
-_Live Example: https://vue-template.vercel.app_
+## Completed App
 
-## Running Locally
+Your completed ecommerce app will look similar to the following:
 
-```
-yarn install
-```
-
-#### Compile and hot-reload for development
-
-```
-yarn serve
-```
-
-#### Compile and minify for production
-
-```
-yarn build
-```
-
-#### Lint and fix files
-
-```
-yarn lint
-```
+![blog-body-vue-iframe-js-sdk-payment-form](https://github.com/user-attachments/assets/bd73a56e-be4e-4b1f-9df6-3d023348e2ea)
